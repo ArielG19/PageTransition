@@ -1,0 +1,16 @@
+- ir a http://www.initializr.com/ para preconfigurar una estructura
+- paso 1: click en responsive
+- paso 2: seleccionar no template y desmarcar todas las que estan en H5BP Optional
+- paso 3: descargar
+
+- Agregar barba.js
+- agregar las clases html
+- agregar js de transitions.
+
+//iniciamos la transicion al final de nuestra funcion js
+Barba.Pjax.start();
+
+Hasta aqui ya tenemos un efecto.
+----------------------
+Agregar cdn TweenMax.min.js
+Agregar nuestra transicion en la funcion de barba en main.js
